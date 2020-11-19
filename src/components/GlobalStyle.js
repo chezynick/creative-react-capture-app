@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle` 
  *{
@@ -53,5 +53,5 @@ const GlobalStyle = createGlobalStyle`
          line-height:150%;
      }
  
-`
+`;
 export default GlobalStyle;
