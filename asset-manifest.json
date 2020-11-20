@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/creative-react-capture-app/static/js/main.97b0d5da.chunk.js",
+    "main.js.map": "/creative-react-capture-app/static/js/main.97b0d5da.chunk.js.map",
+    "runtime-main.js": "/creative-react-capture-app/static/js/runtime-main.ccc92ad5.js",
+    "runtime-main.js.map": "/creative-react-capture-app/static/js/runtime-main.ccc92ad5.js.map",
+    "static/js/2.95d5f826.chunk.js": "/creative-react-capture-app/static/js/2.95d5f826.chunk.js",
+    "static/js/2.95d5f826.chunk.js.map": "/creative-react-capture-app/static/js/2.95d5f826.chunk.js.map",
+    "static/js/3.a05b5fae.chunk.js": "/creative-react-capture-app/static/js/3.a05b5fae.chunk.js",
+    "static/js/3.a05b5fae.chunk.js.map": "/creative-react-capture-app/static/js/3.a05b5fae.chunk.js.map",
+    "index.html": "/creative-react-capture-app/index.html",
+    "static/js/2.95d5f826.chunk.js.LICENSE.txt": "/creative-react-capture-app/static/js/2.95d5f826.chunk.js.LICENSE.txt",
+    "static/media/athlete-small.9c7a85d4.png": "/creative-react-capture-app/static/media/athlete-small.9c7a85d4.png",
+    "static/media/athlete2.b216a5ad.png": "/creative-react-capture-app/static/media/athlete2.b216a5ad.png",
+    "static/media/clock.4b7cde7e.svg": "/creative-react-capture-app/static/media/clock.4b7cde7e.svg",
+    "static/media/diaphragm.db801491.svg": "/creative-react-capture-app/static/media/diaphragm.db801491.svg",
+    "static/media/good-times2.4ea1be17.jpg": "/creative-react-capture-app/static/media/good-times2.4ea1be17.jpg",
+    "static/media/goodtimes-small.94ab060d.png": "/creative-react-capture-app/static/media/goodtimes-small.94ab060d.png",
+    "static/media/home1.9836de69.png": "/creative-react-capture-app/static/media/home1.9836de69.png",
+    "static/media/home2.a65a4256.png": "/creative-react-capture-app/static/media/home2.a65a4256.png",
+    "static/media/money.72da7c48.svg": "/creative-react-capture-app/static/media/money.72da7c48.svg",
+    "static/media/teamwork.aa71db2e.svg": "/creative-react-capture-app/static/media/teamwork.aa71db2e.svg",
+    "static/media/the-racer2.580f15cd.jpg": "/creative-react-capture-app/static/media/the-racer2.580f15cd.jpg",
+    "static/media/theracer-small.51874213.png": "/creative-react-capture-app/static/media/theracer-small.51874213.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc92ad5.js",
+    "static/js/2.95d5f826.chunk.js",
+    "static/js/main.97b0d5da.chunk.js"
+  ]
+}
