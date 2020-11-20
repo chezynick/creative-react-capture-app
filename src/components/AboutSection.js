@@ -2,48 +2,45 @@ import React from "react";
 import home1 from "../img/home1.png";
 //styled
 import styled from "styled-components";
+
 import { About, Description, Image, Hide } from "../styles";
 import { motion } from "framer-motion";
+import { titleAnim, fade, photoAnim } from "../Animation";
+import Wave from "./Wave";
 
 const AboutSection = () => {
-  const titleAnim = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { duration: 2 } },
-  };
-  const container = {
-    hidden: { x: 100 },
-    show: {
-      x: 0,
-      transition: { duration: 1, ease: "easeOut", staggerChildren: 1 },
-    },
-  };
   return (
     <About>
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2>We work to make</motion.h2>
+            <motion.h2 variants={titleAnim}>We work to make</motion.h2>
           </Hide>
 
           <Hide>
-            <motion.h2>
+            <motion.h2 variants={titleAnim}>
               Your <span>dreams</span>
             </motion.h2>
           </Hide>
 
           <Hide>
-            <motion.h2>come true.</motion.h2>
+            <motion.h2 variants={titleAnim}>come true.</motion.h2>
           </Hide>
         </motion.div>
-        <p>
+        <motion.p variants={fade}>
           Contact us for any photography or videography that you have. We have
           professionals with amazing skills.
-        </p>
-        <button>Contact Us</button>
+        </motion.p>
+        <motion.button variants={fade}>Contact Us</motion.button>
       </Description>
       <Image>
-        <img src={home1} alt="guy with a camera here" />
+        <motion.img
+          variants={photoAnim}
+          src={home1}
+          alt="guy with a camera here"
+        />
       </Image>
+      <Wave />
     </About>
   );
 };

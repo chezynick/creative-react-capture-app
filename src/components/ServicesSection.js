@@ -2,16 +2,21 @@ import React from "react";
 //styles
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
+import { fade } from "../Animation";
+
 //import icons images
 import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
+import { UseScroll } from "./UseScroll";
+//test
 
 const ServicesSection = () => {
+  const [element, controls] = UseScroll();
   return (
-    <Services>
+    <Services variants={fade} animate={controls} initial="hidden" ref={element}>
       <Description>
         <h2>
           High <span>quality</span> Services
@@ -65,6 +70,9 @@ const Services = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
 `;
 const Card = styled.div`
   flex-basis: 15rem;
